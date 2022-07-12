@@ -19,9 +19,9 @@ class TransformerPredict:
     def predict(self, sentence: str) -> str:
         """Predict the binary class of a sentence using a Transformer model
         Args:
-            sentence (str): sentence
+            Data (pd.DataFrame): DataFrame
         Returns:
-            binary class (str): hate (class 0) | not-hate (class 1)
+            binary class (str): Apartment (class 0) | House (class 1)
         """
         try:
             # Tokenizer parameters
