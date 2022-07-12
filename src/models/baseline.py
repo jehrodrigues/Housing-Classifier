@@ -20,9 +20,9 @@ class BaselinePredict:
     def predict(self, row):
         """Predict the binary class of a sentence using a Logistic Regression
         Args:
-            sentence (str): sentence
+            sentence (str): DataFrame
         Returns:
-            binary class (str): hate (class 0) | not-hate (class 1)
+            binary class (str): Apartment (class 0) | House (class 1)
         """
         # predict
         return self._model.predict_proba(row)
