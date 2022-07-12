@@ -32,7 +32,7 @@ class BaselinePredict:
         try:
 
             # Get data
-            df_train, _, df_test = get_data()
+            df_train, _, _ = get_data()
 
             # Removing label
             train = df_train.drop(["label"], axis=1)
