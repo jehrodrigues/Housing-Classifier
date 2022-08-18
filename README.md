@@ -1,6 +1,6 @@
 # Housing Classification with Transformers
 
-This repo aims to perform the classification of housing data into Apartment or House. It fine-tunes and evaluates two pre-trained transformer models on the CASAFARI dataset.
+This repo aims to perform the classification of housing data into Apartment or House. It fine-tunes and evaluates two pre-trained transformer models on a real estate dataset.
 
 ---
 
@@ -75,7 +75,7 @@ $./model/
 
 ## Experimentation
 
-Perform evaluation of Housing Classification models on CASAFARI data.
+Perform evaluation of Housing Classification models on test data.
 
 ```console
 $ cd notebooks/
